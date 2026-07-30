@@ -208,8 +208,9 @@ export const logoutUser = (req, res) => {
         httpOnly: true,
         secure: isProd,
         sameSite: isProd ? "none" : "lax",
-        expires: new Date(0)
+        expires: new Date(0),
     });
 
     res.status(200).json({ message: "Logged out successfully" });
 };
+

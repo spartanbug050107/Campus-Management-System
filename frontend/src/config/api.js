@@ -1,2 +1,2 @@
-export const API_BASE_URL = "https://campus-management-system-l8u4.onrender.com";
+export const API_BASE_URL = "http://localhost:5000";
 export const DEFAULT_HEADERS = { "Content-Type": "application/json" };
